@@ -14,16 +14,17 @@
 		margin: 0 0 (_size(element-margin) * 0.75) 0;
 
 		&:before {
-			background: _palette(accent1, bg);
-			border-radius: _size(border-radius);
-			color: _palette(accent1, fg-bold);
-			content: '\f0e7';
+			background-image: url('../../images/DijonTechLogo.png');
+      background-size: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      content: "";
 			display: inline-block;
 			font-size: 3em;
-			height: 1.65em;
+			height: 4em;
 			line-height: 1.65em;
 			text-align: center;
-			width: 1.65em;
+			width: 4em;
 		}
 
 		@include breakpoint(large) {

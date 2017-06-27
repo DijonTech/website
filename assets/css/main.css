@@ -2868,16 +2868,17 @@
 		}
 
 		.logo:before {
-			background: #e09476;
-			border-radius: 4px;
-			color: #ffffff;
-			content: '\f0e7';
+			background-image: url('../../images/DijonTechLogo.png');
+			background-size: 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+			content: "";
 			display: inline-block;
 			font-size: 3em;
-			height: 1.65em;
+			height: 4em;
 			line-height: 1.65em;
 			text-align: center;
-			width: 1.65em;
+			width: 4em;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2906,6 +2907,10 @@
 
 	section.special, article.special {
 		text-align: center;
+	}
+	
+	header h1 {
+		display: none;
 	}
 
 	header p {
